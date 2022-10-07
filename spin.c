@@ -30,7 +30,7 @@ void signal_handler(int sig) {
     }
 }
 
-void drawrpoint(int r_x, int r_y, unsigned char *mem) /* x and y is not in real space(screen space) */
+void drawrpoint(int r_x, int r_y, unsigned char *mem) /* r_x and r_y is in real space */
 {
     if(r_x < 0 || r_x > RESOLUTION_X - 1 || r_y < 0 || r_y > RESOLUTION_Y - 1)
     {
