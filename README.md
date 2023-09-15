@@ -6,8 +6,6 @@ The code runs on the imx6ull embedfire development board, and may also works on 
 
 main.c initializes controls the LCD and spinning.c calculates the coordinate. 
 
-***
-
 # 旋转立方体
 
 这个小项目的目标是在不使用 opengl 的情况下在 LCD 上显示一个旋转的立方体。
